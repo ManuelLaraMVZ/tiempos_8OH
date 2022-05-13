@@ -1,4 +1,4 @@
-﻿Treatment,Hours,Mean_value,sd,Concentration,
+﻿Treatment,Hours,Mean_value,sd,Concentration, Position
 DMSO,3h,0.9758,0.00427,0,0
 DMSO,6h,0.9613,0.00437,0,0
 DMSO,12h,0.9332,0.0108,0,0
