@@ -19,11 +19,20 @@ tiempos2$Treatment2<- factor(tiempos2$Treatment2,
                          levels = c("DMSO", "31.25 然", "62.50 然", "125.00 然", "250.00 然",
                                     "500.00 然", "750.00 然", "1000.00 然"))
 head(tiempos2)
+view(tiempos2)
 
-graft <- tiempos2%>%
+write.csv(x=tiempos2,file = "TIEMPOS2.csv", row.names = F)
+
+tiempos3 <-read_csv("TIEMPOS2.csv")
+
+graft <- tiempos3%>%
     ggplot(mapping = aes(x=Position,
                          y=Mean_value,
                          fill=Treatment2))+
+  geom_text(aes(label=Tukey),
+            nudge_x=0.25,     #REspecto al eje x que tanto cambia
+            nudge_y = 0.1,      #respecto al eje y que tanto cambia
+            size=3)+
   geom_bar(stat = "identity", colour="black", size=.8)+
   theme_classic()+
   facet_wrap(~Hours, dir = "v")+
@@ -33,7 +42,7 @@ graft <- tiempos2%>%
 graft
 
 miny=0
-maxy=1
+maxy=1.02
 
 marcasy <- seq(from=miny,
                to=maxy,
