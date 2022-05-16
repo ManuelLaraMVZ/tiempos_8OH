@@ -26,9 +26,9 @@ Hora,Tratamiento,Datos
 3h,1000.00 µM,0.272292994
 3h,1000.00 µM,0.210752688
 3h,1000.00 µM,0.251953125
-3h,Control,1
-3h,Control,1
-3h,Control,1
+6h,Control,1
+6h,Control,1
+6h,Control,1
 6h,DMSO,0.969745223
 6h,DMSO,0.959139785
 6h,DMSO,0.955078125
@@ -53,9 +53,9 @@ Hora,Tratamiento,Datos
 6h,1000.00 µM,0.272292994
 6h,1000.00 µM,0.210752688
 6h,1000.00 µM,0.251953125
-3h,Control,1
-3h,Control,1
-3h,Control,1
+12h,Control,1
+12h,Control,1
+12h,Control,1
 12h,DMSO,0.913919414
 12h,DMSO,0.934193548
 12h,DMSO,0.951381215
@@ -80,9 +80,9 @@ Hora,Tratamiento,Datos
 12h,1000.00 µM,0.15018315
 12h,1000.00 µM,0.12516129
 12h,1000.00 µM,0.141935484
-3h,Control,1
-3h,Control,1
-3h,Control,1
+24h,Control,1
+24h,Control,1
+24h,Control,1
 24h,DMSO,0.980523094
 24h,DMSO,0.978574988
 24h,DMSO,0.976408281
