@@ -102,7 +102,9 @@ graft6 <- graft5+
             nudge_y = 0.08,      #respecto al eje y que tanto cambia
             size=6,
             face="bold")+
-  scale_fill_simpsons()
+  scale_fill_simpsons()+
+  theme( panel.grid.major = element_blank(),
+         panel.grid.minor = element_blank())
 graft6
 
 
